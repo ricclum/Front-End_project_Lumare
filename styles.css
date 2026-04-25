@@ -71,9 +71,10 @@ a {
 }
 
 .top-nav .divider {
-    color: #bbb;
-    margin: 0 10px;
-    font-weight: 300;
+    color: #777;
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .top-nav-left a {
@@ -252,8 +253,8 @@ a {
 }
 
 .nav-links .separator {
-    color: #ccc;
-    font-weight: normal;
+    color: #888;
+    font-weight: bold;
 }
 
 .search-icon-dark {
@@ -345,7 +346,9 @@ a {
 
 .news-time {
     font-size: 11px;
-    color: #999;
+    color: #555;
+    font-weight: 600;
+    letter-spacing: 0.2px;
 }
 
 .news-title:hover {
@@ -355,9 +358,11 @@ a {
 
 .news-time {
     font-size: 11px;
-    color: #777;
+    color: #555;
     text-transform: uppercase;
     margin-left: 20px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
 }
 
 
@@ -776,8 +781,8 @@ a {
 .paid-listings-badge {
     background-color: #6da2a6;
     color: white;
-    font-size: 10px;
-    padding: 3px 8px;
+    font-size: 11px;
+    padding: 4px 10px;
     font-weight: bold;
     display: inline-block;
     align-self: flex-start;
@@ -819,9 +824,10 @@ a {
 
 .pom-role {
     font-size: 11px;
-    color: #777;
+    color: #444;
     text-transform: uppercase;
     margin-bottom: 5px;
+    font-weight: 600;
 }
 
 .pom-featured-text h3 {
@@ -987,8 +993,9 @@ a {
 
 .list-category {
     font-size: 11px;
-    color: #777;
+    color: #444;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .list-card h3 {
