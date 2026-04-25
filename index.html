@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nashville Business Journal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="top-nav">
+        <div class="header-container-full">
+            <div class="top-nav-left">
+                <span class="desktop-text">NASHVILLE
+                    BUSINESS JOURNAL</span>
+                <span class="mobile-text">NASHVILLE</span>
+                <span class="divider">|</span>
+                <a href="#">
+                    Select a City
+                    <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </a>
+            </div>
+            <div class="top-nav-right">
+                <a href="#" class="desktop-only">
+                    Sign In
+                    <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </a>
+                <a href="#" class="mobile-only">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="header-placeholder"></div>
+    
+    <div id="dynamic-header">
+        
+        <div class="mobile-header mobile-only">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="logo-box">
+                <div class="logo-text">
+                    <span class="logo-nashville">NASHVILLE</span>
+                    <span class="logo-business">BUSINESS JOURNAL</span>
+                </div>
+            </div>
+            <div class="search-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round" class="search-svg">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+        </div>
+
+        <header class="main-header desktop-only">
+            <div class="header-container-full">
+                <div class="logo-box">
+                    <div class="logo-text">
+                        <span class="logo-nashville">NASHVILLE</span>
+                        <span class="logo-business">BUSINESS JOURNAL</span>
+                    </div>
+                </div>
+                <div class="subscribe-box">
+                    <span class="price">$4 FOR 4 WEEKS</span>
+                    <a href="#" class="btn-subscribe">SUBSCRIBE NOW</a>
+                </div>
+            </div>
+        </header>
+
+        <nav class="category-nav desktop-only">
+            <div class="nav-container-full">
+                <div class="hamburger-dark">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Lists and Public Records</a></li>
+                    <li><a href="#">Commercial Real Estate</a></li>
+                    <li><a href="#">Banking</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Residential Real Estate</a></li>
+                    <li><a href="#">Food & Lifestyle</a></li>
+                    <li><a href="#">Nashville Inno</a></li>
+                    <li class="separator">|</li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">40 Under 40</a></li>
+                    <li><a href="#">Best Places to Work</a></li>
+                    <li><a href="#">Women of Influence</a></li>
+                    <li><a href="#">Nominations</a></li>
+                </ul>
+                <div class="search-icon-dark">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </div> 
+
+    <main class="content-container">
+
+
+        <section class="latest-news-section">
+            <div class="section-header">
+                <h2 class="section-title">Latest News</h2>
+                <a href="#" class="more-link">More latest news ></a>
+            </div>
+            <ul class="news-list">
+                <li>
+                    <span class="arrow-icon">&gt;</span>
+                    <a href="#" class="news-title">Ultima Notizia 1</a>
+                    <span class="news-time">2 HOURS AGO</span>
+                </li>
+                <li>
+                    <span class="arrow-icon">&gt;</span>
+                    <a href="#" class="news-title">Ultima Notizia 2</a>
+                    <span class="news-time">2 HOURS AGO</span>
+                </li>
+                <li>
+                    <span class="arrow-icon">&gt;</span>
+                    <a href="#" class="news-title">Ultima Notizia 3</a>
+                    <span class="news-time">2 HOURS AGO</span>
+                </li>
+            </ul>
+        </section>
+
+
+
+        <section class="main-articles-grid">
+            
+            <div class="grid-col main-col">
+                <article class="hero-article">
+                    <img src="https://placehold.co/800x450" alt="Building Placeholder">
+                    <div class="article-content">
+                        <span class="category">Categoria 1</span>
+                        <h2>Notizia Principale 1</h2>
+                        <p>Testo fittizio 1.</p>
+                    </div>
+                </article>
+                <article class="standard-article border-top">
+                    <span class="category">Categoria 1</span>
+                    <h3>Notizia 2</h3>
+                    <p>Testo fittizio 2.</p>
+                </article>
+                <article class="standard-article border-top">
+                    <span class="category">Categoria 1</span>
+                    <h3>Notizia 3</h3>
+                    <p>Testo fittizio 3.</p>
+                </article>
+            </div>
+
+            
+            <div class="grid-col secondary-col">
+                <article class="standard-article">
+                    <span class="category">Categoria 2</span>
+                    <h3>Notizia 4</h3>
+                    <p>Testo fittizio 4.</p>
+                </article>
+                <article class="standard-article border-top">
+                    <span class="category">Categoria 2</span>
+                    <h3>Notizia 5</h3>
+                    <p>Testo fittizio 5.</p>
+                </article>
+                <article class="standard-article border-top">
+                    <span class="category">Categoria 2</span>
+                    <h3>Notizia 6</h3>
+                    <p>Testo fittizio 6.</p>
+                </article>
+                <article class="standard-article border-top">
+                    <span class="category">Categoria 2</span>
+                    <h3>Notizia 7</h3>
+                    <p>Testo fittizio 7.</p>
+                </article>
+            </div>
+
+            
+            <div class="grid-col sidebar-col">
+
+
+                <div class="utility-links">
+                    <a href="#" class="utility-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                            <line x1="9" y1="9" x2="15" y2="9"></line>
+                            <line x1="9" y1="13" x2="15" y2="13"></line>
+                            <line x1="9" y1="17" x2="15" y2="17"></line>
+                        </svg>
+                        View Digital Edition
+                    </a>
+                    <a href="#" class="utility-link border-top-light">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="8" y1="6" x2="21" y2="6"></line>
+                            <line x1="8" y1="12" x2="21" y2="12"></line>
+                            <line x1="8" y1="18" x2="21" y2="18"></line>
+                            <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                            <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                            <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                        </svg>
+                        View Book of Lists
+                    </a>
+                </div>
+
+                <div class="from-newsroom">
+                    <h2 class="section-title">From the Newsroom</h2>
+                    <div class="newsroom-item">
+                        <img src="https://placehold.co/60x60" class="author-img" alt="Author">
+                        <div class="newsroom-text">
+                            <span class="author-name">PERSONA 1</span>
+                            <h4>Titolo Articolo Persona 1</h4>
+                        </div>
+                    </div>
+                    <div class="newsroom-item border-top-light">
+                        <img src="https://placehold.co/60x60" class="author-img" alt="Author">
+                        <div class="newsroom-text">
+                            <span class="author-name">PERSONA 2</span>
+                            <h4>Titolo Articolo Persona 2</h4>
+                        </div>
+                    </div>
+                    <div class="newsroom-item border-top-light">
+                        <img src="https://placehold.co/60x60" class="author-img" alt="Author">
+                        <div class="newsroom-text">
+                            <span class="author-name">PERSONA 3</span>
+                            <h4>Titolo Articolo Persona 3</h4>
+                        </div>
+                    </div>
+                    <div class="newsroom-item border-top-light">
+                        <img src="https://placehold.co/60x60" class="author-img" alt="Author">
+                        <div class="newsroom-text">
+                            <span class="author-name">PERSONA 4</span>
+                            <h4>Titolo Articolo Persona 4</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn-more-news btn-small-desktop">More business news</a>
+        </section>
+
+
+
+        
+        <section class="category-section">
+            <div class="category-header">
+                <h2 class="category-title">Airport</h2>
+                <a href="#" class="see-more">See More</a>
+            </div>
+            <div class="airport-grid">
+                <div class="airport-main">
+                    <div class="airport-text">
+                        <h3>Notizia Airport Principale 1</h3>
+                        <p>Testo fittizio 11.</p>
+                    </div>
+                    <div class="airport-image">
+                        <img src="https://placehold.co/400x250" alt="Airport">
+                    </div>
+                </div>
+                <div class="airport-list">
+                    <article class="list-article border-bottom-light">
+                        <h4>Notizia Airport Secondaria 1</h4>
+                    </article>
+                    <article class="list-article border-bottom-light">
+                        <h4>Notizia Airport Secondaria 2</h4>
+                    </article>
+                    <article class="list-article">
+                        <h4>Notizia Airport Secondaria 3</h4>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <div class="category-header">
+                <h2 class="category-title">Commercial Real Estate</h2>
+                <a href="#" class="see-more">See More</a>
+            </div>
+            <div class="cre-grid">
+                <div class="cre-col">
+                    <img src="https://placehold.co/400x250" alt="CRE" class="cre-img">
+                    <h3>Notizia CRE Principale 1</h3>
+                    <p>Testo fittizio 12.</p>
+                </div>
+                <div class="cre-col cre-border-left">
+                    <article class="cre-article border-bottom-light">
+                        <h3>Notizia CRE Secondaria 1</h3>
+                        <p>Testo fittizio 13.</p>
+                    </article>
+                    <article class="cre-article">
+                        <h3>Notizia CRE Secondaria 2</h3>
+                        <p>Testo fittizio 14.</p>
+                    </article>
+                </div>
+                <div class="cre-col cre-border-left">
+                    <article class="cre-article border-bottom-light">
+                        <h3>Notizia CRE Secondaria 3</h3>
+                        <p>Testo fittizio 15.</p>
+                    </article>
+                    <article class="cre-article">
+                        <h3>Notizia CRE Secondaria 4</h3>
+                        <p>Testo fittizio 16.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="category-section">
+            <div class="category-header pom-header">
+                <div class="pom-titles">
+                    <span class="paid-listings-badge">PAID LISTINGS</span>
+                    <h2 class="category-title">People on the Move</h2>
+                </div>
+                <a href="#" class="see-more">See More</a>
+            </div>
+            <div class="pom-grid">
+                <div class="pom-featured">
+                    <img src="https://placehold.co/300x400" alt="Persona 1" class="pom-featured-img">
+                    <div class="pom-featured-text">
+                        <span class="featured-badge">FEATURED</span>
+                        <span class="pom-role">RUOLO PERSONA 1</span>
+                        <h3>Nome Persona 1</h3>
+                        <span class="pom-company">Azienda Persona 1</span>
+                        <p>Testo fittizio 17.</p>
+                        <a href="#" class="view-profile">View Profile ></a>
+                    </div>
+                </div>
+
+                <div class="pom-col cre-border-left">
+                    <div class="pom-item border-bottom-light">
+                        <img src="https://placehold.co/80x100" alt="Persona 2">
+                        <div class="pom-item-text">
+                            <span class="pom-role">RUOLO PERSONA 2</span>
+                            <h4>Nome Persona 2</h4>
+                            <span class="pom-company">Azienda Persona 2</span>
+                        </div>
+                    </div>
+                    <div class="pom-item">
+                        <img src="https://placehold.co/80x100" alt="Persona 3">
+                        <div class="pom-item-text">
+                            <span class="pom-role">RUOLO PERSONA 3</span>
+                            <h4>Nome Persona 3</h4>
+                            <span class="pom-company">Azienda Persona 3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pom-col cre-border-left">
+                    <div class="pom-item border-bottom-light">
+                        <img src="https://placehold.co/80x100" alt="Persona 4">
+                        <div class="pom-item-text">
+                            <span class="pom-role">RUOLO PERSONA 4</span>
+                            <h4>Nome Persona 4</h4>
+                            <span class="pom-company">Azienda Persona 4</span>
+                        </div>
+                    </div>
+                    <div class="pom-item">
+                        <img src="https://placehold.co/80x100" alt="Persona 5">
+                        <div class="pom-item-text">
+                            <span class="pom-role">RUOLO PERSONA 5</span>
+                            <h4>Nome Persona 5</h4>
+                            <span class="pom-company">Azienda Persona 5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pom-promo">
+                <div class="pom-promo-text">
+                    <h3>Promote employees and highlight your company's success</h3>
+                    <p>Announce your latest big hire and get the word out about the moves your business is making.</p>
+                </div>
+                <a href="#" class="btn-submit-pom">SUBMIT PEOPLE ON THE MOVE</a>
+            </div>
+        </section>
+
+        
+        <section class="category-section">
+            <div class="category-header">
+                <div class="the-list-title">
+                    <span class="circle-char dark-circle">T</span>
+                    <span class="circle-char dark-circle">H</span>
+                    <span class="circle-char dark-circle">E</span>
+                    <span class="circle-char blue-circle">L</span>
+                    <span class="circle-char blue-circle">I</span>
+                    <span class="circle-char blue-circle">S</span>
+                    <span class="circle-char blue-circle">T</span>
+                </div>
+                <a href="#" class="see-more">See More</a>
+            </div>
+            <div class="the-list-scroll">
+                <div class="list-card">
+                    <span class="list-category">CATEGORIA LISTA 1</span>
+                    <h3>Titolo Lista 1</h3>
+                    <span class="list-count">10 Businesses</span>
+                    <p>Testo fittizio 18.</p>
+                </div>
+                <div class="list-card">
+                    <span class="list-category">CATEGORIA LISTA 2</span>
+                    <h3>Titolo Lista 2</h3>
+                    <span class="list-count">20 Businesses</span>
+                    <p>Testo fittizio 19.</p>
+                </div>
+                <div class="list-card">
+                    <span class="list-category">CATEGORIA LISTA 3</span>
+                    <h3>Titolo Lista 3</h3>
+                    <span class="list-count">30 Properties</span>
+                    <p>Testo fittizio 20.</p>
+                </div>
+                <div class="list-card">
+                    <span class="list-category">CATEGORIA LISTA 4</span>
+                    <h3>Titolo Lista 4</h3>
+                    <span class="list-count">40 Properties</span>
+                    <p>Testo fittizio 21.</p>
+                </div>
+                <div class="list-card">
+                    <span class="list-category">CATEGORIA LISTA 5</span>
+                    <h3>Titolo Lista 5</h3>
+                    <span class="list-count">135 Businesses</span>
+                    <p>Testo fittizio 22.</p>
+                </div>
+            </div>
+
+            <div class="pom-promo">
+                <div class="pom-promo-text">
+                    <h3>On the hunt for even more targeted data?</h3>
+                    <p>Testo fittizio 23.</p>
+                </div>
+                <a href="#" class="btn-submit-pom">BOOK OF LISTS UNLIMITED</a>
+            </div>
+        </section>
+
+
+
+        
+        <section class="category-section">
+            <div class="category-header">
+                <h2 class="category-title">Banking & Financial Services</h2>
+                <a href="#" class="see-more">See More</a>
+            </div>
+            <div class="cre-grid">
+                <div class="cre-col">
+                    <img src="https://placehold.co/400x250" alt="Banking" class="cre-img">
+                    <h3>Titolo Banking 1</h3>
+                    <p>Testo fittizio 24.</p>
+                </div>
+                <div class="cre-col cre-border-left">
+                    <article class="cre-article border-bottom-light article-spacing">
+                        <h3>Titolo Banking 2</h3>
+                        <p>Testo fittizio 25.</p>
+                    </article>
+                    <article class="cre-article">
+                        <h3>Titolo Banking 3</h3>
+                        <p>Testo fittizio 26.</p>
+                    </article>
+                </div>
+                <div class="cre-col cre-border-left">
+                    <article class="cre-article border-bottom-light article-spacing">
+                        <h3>Titolo Banking 4</h3>
+                        <p>Testo fittizio 27.</p>
+                    </article>
+                    <article class="cre-article">
+                        <h3>Titolo Banking 5</h3>
+                        <p>Testo fittizio 28.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="category-section">
+            <div class="category-header">
+                <h2 class="category-title">Events</h2>
+                <a href="#" class="see-more">See All Events</a>
+            </div>
+            <div class="events-grid">
+                <div class="event-main">
+                    <img src="https://placehold.co/400x250" alt="Event">
+                    <div class="event-date">JUNE 11</div>
+                    <h3>Titolo Evento 1</h3>
+                    <p>Testo fittizio 29.</p>
+                </div>
+                <div class="event-list cre-border-left">
+                    <div class="event-list-item border-bottom-light">
+                        <div class="event-calendar">
+                            <span class="event-month">APRIL</span>
+                            <span class="event-day">22</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Titolo Evento 2</h3>
+                            <p>Testo fittizio 30.</p>
+                        </div>
+                        <a href="#" class="btn-event">REGISTER</a>
+                    </div>
+                    <div class="event-list-item border-bottom-light">
+                        <div class="event-calendar">
+                            <span class="event-month">MAY</span>
+                            <span class="event-day">5</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Titolo Evento 3</h3>
+                            <p>Testo fittizio 31.</p>
+                        </div>
+                        <a href="#" class="btn-event">REGISTER</a>
+                    </div>
+                    <div class="event-list-item">
+                        <div class="event-calendar">
+                            <span class="event-month">MAY</span>
+                            <span class="event-day">18</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Titolo Evento 4</h3>
+                            <p>Testo fittizio 32.</p>
+                        </div>
+                        <a href="#" class="btn-event">NOMINATE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pom-promo promo-mt-10">
+                <div class="pom-promo-text">
+                    <h3>See what's going on in your business community</h3>
+                    <p>Testo fittizio 33.</p>
+                </div>
+                <a href="#" class="btn-submit-pom">VIEW CALENDAR LISTINGS</a>
+            </div>
+        </section>
+
+        
+        <section class="category-section">
+            <div class="category-header pom-header header-mb-20">
+                <div class="pom-titles">
+                    <span class="paid-listings-badge">PAID LISTINGS</span>
+                    <h2 class="category-title title-bizspotlight">BizSpotlight</h2>
+                </div>
+                <a href="#" class="see-more">See More</a>
+            </div>
+
+            <div class="the-list-scroll promo-mt-10">
+                <div class="list-card bizspotlight-card">
+                    <img src="https://placehold.co/120x60" alt="Logo">
+                    <span class="list-category">BANKING & FINANCIAL
+                        SERVICES</span>
+                    <h3>Titolo Spotlight 1</h3>
+                    <span class="list-count">Testo fittizio
+                        34</span>
+                    <p>Testo fittizio 35.</p>
+                </div>
+                <div class="list-card bizspotlight-card">
+                    <img src="https://placehold.co/120x60" alt="Logo">
+                    <span class="list-category">BANKING & FINANCIAL
+                        SERVICES</span>
+                    <h3>Titolo Spotlight 2</h3>
+                    <span class="list-count">Testo fittizio
+                        36</span>
+                    <p>Testo fittizio 37.</p>
+                </div>
+                <div class="list-card bizspotlight-card">
+                    <img src="https://placehold.co/120x60" alt="Logo">
+                    <span class="list-category">BANKING & FINANCIAL
+                        SERVICES</span>
+                    <h3>Titolo Spotlight 3</h3>
+                    <span class="list-count">Testo fittizio
+                        38</span>
+                    <p>Testo fittizio 39.</p>
+                </div>
+                <div class="list-card bizspotlight-card">
+                    <img src="https://placehold.co/120x60" alt="Logo">
+                    <span class="list-category">BANKING & FINANCIAL
+                        SERVICES</span>
+                    <h3>Titolo Spotlight 4</h3>
+                    <span class="list-count">Testo fittizio
+                        40</span>
+                    <p>Testo fittizio 41.</p>
+                </div>
+                <div class="list-card bizspotlight-card">
+                    <img src="https://placehold.co/120x60" alt="Logo">
+                    <span class="list-category">BANKING & FINANCIAL
+                        SERVICES</span>
+                    <h3>Titolo Spotlight 5</h3>
+                    <span class="list-count">Testo fittizio
+                        42</span>
+                    <p>Testo fittizio 43.</p>
+                </div>
+            </div>
+
+            <div class="pom-promo promo-no-border">
+                <div class="pom-promo-text">
+                    <h3>Highlight and promote your company's achievements</h3>
+                    <p>Testo fittizio 44.</p>
+                </div>
+                <a href="#" class="btn-submit-pom">SUBMIT BIZSPOTLIGHT PRESS RELEASE</a>
+            </div>
+        </section>
+
+
+
+        
+        <div class="chat-bubble mobile-only">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path
+                    d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
+            </svg>
+        </div>
+    </main>
+
+
+
+    
+    <footer class="site-footer">
+        <div class="content-container">
+            <div class="footer-top-bar">
+                <a href="#" class="back-to-top">Back to Top ^</a>
+            </div>
+
+            <div class="footer-nav-row">
+                <div class="footer-logo">
+                    <span class="footer-logo-nashville">NASHVILLE</span>
+                    <span class="footer-logo-business">BUSINESS
+                        JOURNAL</span>
+                </div>
+                <div class="footer-nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">News</a>
+                    <a href="#">Lists and Public Records</a>
+                    <a href="#">People</a>
+                    <a href="#">Events</a>
+                    <a href="#">Store</a>
+                </div>
+            </div>
+
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <div>
+                        <h4>SUBSCRIBERS</h4>
+                        <ul>
+                            <li><a href="#">Start a Subscription</a></li>
+                            <li><a href="#">Subscriber-Only Content</a></li>
+                            <li><a href="#">Digital Edition</a></li>
+                            <li><a href="#">Book of Lists</a></li>
+                            <li><a href="#">Book of Lists - Unlimited</a></li>
+                            <li><a href="#">Manage your Account</a></li>
+                            <li><a href="#">Manage My Advertising</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>ABOUT & CONTACT</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About The Business Journals</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Place Classifieds</a></li>
+                        <li><a href="#">Help & FAQs</a></li>
+                        <li><a href="#">Member Services Directory</a></li>
+                        <li><a href="#">Reprints</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>APPS & SYNDICATION</h4>
+                    <ul>
+                        <li><a href="#">Mobile Apps</a></li>
+                        <li><a href="#">Syndication/RSS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>FOLLOW US</h4>
+                    <div class="social-icons">
+                        <img src="https://placehold.co/20x20" alt="X">
+                        <img src="https://placehold.co/20x20" alt="LinkedIn">
+                        <img src="https://placehold.co/20x20" alt="Facebook">
+                        <img src="https://placehold.co/20x20" alt="Instagram">
+                    </div>
+                    <hr>
+                    <h4>NEWSLETTERS</h4>
+                    <div class="newsletter-section">
+                        <a href="#" class="btn-signup">Sign
+                            Up Now</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>ACBJ</h4>
+                    <ul>
+                        <li><a href="#">American City Business Journals</a></li>
+                        <li><a href="#">AmericanInno</a></li>
+                        <li><a href="#">BizEquity</a></li>
+                        <li><a href="#">Bizwomen</a></li>
+                        <li><a href="#">Hemmings</a></li>
+                        <li><a href="#">Portfolio.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-links">
+                    <a href="#">User Agreement</a>
+                    <span>|</span>
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Ad Choices</a>
+                    <span>|</span>
+                    <a href="#">Site Map</a>
+                    <span>|</span>
+                    <div class="privacy-link-container">
+                        <img src="https://placehold.co/30x15" alt="Your Privacy Choices">
+                        <a href="#">Your Privacy Choices</a>
+                    </div>
+                </div>
+                <p class="copyright-text">
+                    © 2026 American City Business Journals. All rights reserved. Use of and/or registration on any
+                    portion of this site constitutes acceptance of our User Agreement (updated August 13, 2024) and
+                    Privacy Policy (updated December 16, 2025). The material on this site may not be reproduced,
+                    distributed, transmitted, cached or otherwise used, except with the prior written permission of
+                    American City Business Journals.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const dynamicHeader = document.getElementById('dynamic-header');
+            const placeholder = document.getElementById('header-placeholder');
+
+            // Set placeholder height to prevent layout jump
+            placeholder.style.height = dynamicHeader.offsetHeight + 'px';
+
+            let lastScrollY = window.scrollY;
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > lastScrollY && window.scrollY > 50) {
+                    // Scrolling giù: nascondi la parte dinamica
+                    dynamicHeader.classList.add('header-hidden');
+                } else {
+                    // Scrolling sù: mostra tutto
+                    dynamicHeader.classList.remove('header-hidden');
+                }
+                lastScrollY = window.scrollY;
+            });
+        });
+    </script>
+</body>
+
+</html>
